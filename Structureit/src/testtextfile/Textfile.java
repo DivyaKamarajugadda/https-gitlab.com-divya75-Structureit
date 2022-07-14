@@ -16,7 +16,7 @@ public class Textfile {
 
 		  driver.get(URL);
 		  driver.manage().window().maximize();
-		  driver.get(baseUrl);
+		  
 		  
 		  
 		  // FILE UPLOADING USING SENDKEYS ....
