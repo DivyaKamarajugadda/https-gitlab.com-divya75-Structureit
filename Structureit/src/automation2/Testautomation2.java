@@ -19,7 +19,7 @@ public class Testautomation2 {
 		  driver.manage().window().maximize();
 		
 		 page_objects_automationtest.email address(driver).sendKeys("test1249@test.com");
-		 page_objects_automationtest.password(driver).sendKeys("PKR@PKR");
+		 page_objects_automationtest.password(driver).sendKeys("Happy@!!!!");
 		 page_objects_automationtest.sign in(driver).click();
 		 driver.findElement(By.id("SubmitLogin")).click();
 		  //Click on Women
@@ -40,7 +40,7 @@ public class Testautomation2 {
 		  oSelect.selectByVisibleText("M");
 
 		  //Select Color
-		  driver.findElement(By.id("color_11")).click();
+		  driver.findElement(By.id("color_12")).click();
 
 		  //Click on add to cart
 		  driver.findElement(By.xpath("//p[@id='add_to_cart']//span[.='Add to cart']")).click();
