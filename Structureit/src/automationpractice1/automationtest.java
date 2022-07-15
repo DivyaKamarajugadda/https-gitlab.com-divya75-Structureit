@@ -37,21 +37,21 @@ public class automationtest {
 		  driver.findElement(By.name("customer_firstname")).sendKeys("Test User");
 		  driver.findElement(By.name("customer_lastname")).sendKeys("Vsoft");
 		  public static webElement password(WebDriver driver) {
-		  driver.findElement(By.id("passwd")).sendKeys("PKR@PKR");
+		  driver.findElement(By.id("passwd")).sendKeys("Happy@!!!!");
 		  
 		  // Enter your address
 		  driver.findElement(By.id("firstname")).sendKeys("Test User");
-		  driver.findElement(By.id("lastname")).sendKeys("Vsoft");
-		  driver.findElement(By.id("company")).sendKeys("Vsoft");
-		  driver.findElement(By.id("address1")).sendKeys("Test 81/1,2nd cross");
+		  driver.findElement(By.id("lastname")).sendKeys("Dtest");
+		  driver.findElement(By.id("company")).sendKeys("ABC");
+		  driver.findElement(By.id("address1")).sendKeys("Test 87 Road");
 		  driver.findElement(By.id("city")).sendKeys("XYZ");
 		  
 		  // Select State
 		  WebElement statedropdown=driver.findElement(By.name("id_state"));
 		  Select oSelect=new Select(statedropdown);
-		  oSelect.selectByValue("4");
+		  oSelect.selectByValue("5");
 
-		  driver.findElement(By.name("postcode")).sendKeys("51838");
+		  driver.findElement(By.name("postcode")).sendKeys("500201");
 		  
 		  // Select Country
 		  WebElement countrydropDown=driver.findElement(By.name("id_country"));
